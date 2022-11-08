@@ -1729,12 +1729,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3766f52d5660f04a9874f289aed7856, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backpack: {fileID: 649404280}
+  helperTextBehaviour: {fileID: 1819131989}
   itemsToGiveOnInitialSearch:
   - {fileID: 11400000, guid: 2b9695ea73516cb4795036e0da47faed, type: 2}
-  backpack: {fileID: 649404280}
+  - {fileID: 11400000, guid: 1610120ffa8b1844a949a43dba30bbea, type: 2}
   itemsAfterMeltingIce:
   - {fileID: 11400000, guid: 2b99a7ef04785de4bad865e7e602f419, type: 2}
-  helperTextBehaviour: {fileID: 1819131989}
 --- !u!1 &2007302621
 GameObject:
   m_ObjectHideFlags: 0

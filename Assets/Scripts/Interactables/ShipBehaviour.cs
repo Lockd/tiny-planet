@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class ShipBehaviour : MonoBehaviour
 {
-    public BackpackItem[] itemsToGiveOnInitialSearch;
     public CharacterBackpack backpack;
-    public BackpackItem[] itemsAfterMeltingIce;
     public HelperTextBehaviour helperTextBehaviour;
+    public BackpackItem[] itemsToGiveOnInitialSearch;
+    public BackpackItem[] itemsAfterMeltingIce;
     BackpackItem ice;
     string[] itemsToRemoveOnMeltingIce = { "Ice" };
 
